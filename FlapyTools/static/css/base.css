@@ -1,0 +1,73 @@
+.message-success {
+    background-color: rgba(60, 252, 60, 0.16);
+    width: 100%;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+.message-error {
+    background-color: rgba(255, 12, 12, 0.25);
+    width: 100%;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+.message-warning {
+    background-color: rgba(255, 165, 0, 0.4);
+    width: 100%;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+.main-content{
+    padding: 40px;
+}
+
+.buttons-container{
+padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buttons-div{
+    display: flex;
+    margin-right: 10px;
+}
+
+.messages-content {
+   padding: 4px;
+    background-color: black;
+    opacity: 0.7;
+    height: 218px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    font-size: 14px;
+    word-wrap: break-word;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: auto;
+}
+
+.nav-link-text{
+    white-space: break-spaces;
+}
+
+body{
+        background-color: rgba(0, 3, 16, 0.52) !important;
+}
+
+.btn.btn-primary.collapse-custom-button {
+    background-color: #42444d;
+}
+
+.card.card-body.dark {
+    background-color: rgba(0, 3, 16, 0.43);
+    margin-top: 40px;
+}
+#processs-al-list-span-len{
+    color:white;
+}
